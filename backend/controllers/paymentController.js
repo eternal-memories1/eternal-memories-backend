@@ -5,12 +5,12 @@ const Memorial = require('../models/Memorial');
 // Configuración de Mercado Pago
 const MP_TOKEN = process.env.MP_ACCESS_TOKEN || '';
 const client = new MercadoPagoConfig({
-    accessToken: MP_TOKEN || 'TEST-0000000000000-000000-00000000000000000000000000000000-000000000',
+    accessToken: MP_TOKEN || 'APP_USR-2831999117665714-031520-0d81475d369ad106f70be9ff9c603cec-1466828993',
 });
 
 // Precios de los planes (en USD o moneda local según configures tu cuenta MP)
 const PRECIOS = {
-    plata: 2,
+    plata: 4,
     oro: 10
 };
 
